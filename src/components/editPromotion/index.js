@@ -52,32 +52,7 @@ function EditPromotion({isOpen=false, setIsEdit, promotion = {}, onSave }) {
                     Save Changes
                 </Button>
             </Modal.Footer>
-        </Modal>
-        
-//         <div>
-//             {isOpen && 
-//             (<div>
-//                 <div id="light" className="white_content">
-//                 <p>edit promotion </p>
-//                 {Object.entries(promotionEdit).map(([key , value]) => {
-//                     if(key !== 'id'){
-//                         return (
-//                             <div>
-//                                 <label for={key}>{key}:</label>
-//                                 <br /> 
-//                                 <input type="text" name={key}  value={value} onChange={(e) => onChangeValue(e)}/>
-//                                 <br />
-//                             </div>);
-//                     }
-//                 })}
-//                 <Button onClick={onCloseDialog}>close</Button>
-//                 <Button onClick={onSavePromotion}>save</Button>
-//             </div>
-//             <div id="fade" className="black_overlay"></div></div>
-//             )
-// }
-//         </div>
-      
+        </Modal> 
     );
 }
 
